@@ -21,7 +21,7 @@ module ActiveSupport
       end
 
       def hash_digest_class
-        @hash_digest_class ||= OpenSSL::Digest::SHA1
+        @hash_digest_class ||= OpenSSL::Digest::SHA256
       end
     end
 
